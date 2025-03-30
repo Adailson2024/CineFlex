@@ -36,8 +36,8 @@ return(
 }
 
 const TelaFilmes=styled.div`
-/* width: 375px;
-height: 780px; */
+width: 100%;
+height: 100%; 
 top: -950px;
 left: -790px;
 background: #212226;
