@@ -56,7 +56,7 @@ border: 1px solid #4E5A65
 `
 const Escolhas=styled.div`
 width: 338px;
-height: 100%;
+height: 421px;
 top: 147px;
 left: 19px;
 border-radius: 8px;
