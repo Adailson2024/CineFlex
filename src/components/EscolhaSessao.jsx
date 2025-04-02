@@ -140,7 +140,7 @@ margin-top: 30px;
   padding-top: 70px;
   color: #FFFFFF;
 width: 375px;
-height: 580px; 
+height: 780px; 
   div {
     margin-top: 20px;
   }
