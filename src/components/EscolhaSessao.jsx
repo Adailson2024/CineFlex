@@ -81,7 +81,7 @@ return(
 const Escolha=styled.div`
 overflow: auto;
 width: 375px;
-height: 680px;
+height: 780px;
 `
 const Linha=styled.div`
 width: 302px;

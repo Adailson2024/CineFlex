@@ -73,7 +73,7 @@ const Comprovante = styled.div`
   overflow: auto;
   margin-top:67px;
   width: 375px;
-height: 580px;
+height: 780px;
   a {
     text-decoration: none;
   }

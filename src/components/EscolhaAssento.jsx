@@ -182,7 +182,7 @@ const PaginaComAssentos = styled.div`
   padding-bottom: 120px;
   padding-top: 70px;
   width: 375px;
-  height: 580px; 
+  height: 780px; 
 `;
 
 const EscolherAssentos = styled.div`

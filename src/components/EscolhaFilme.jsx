@@ -37,7 +37,7 @@ return(
 
 const TelaFilmes=styled.div`
 width: 375px;
-height: 580px; 
+height: 780px; 
 top: -950px;
 left: -790px;
 background: #212226;
