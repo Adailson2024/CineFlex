@@ -136,7 +136,7 @@ top: -950px;
 left: -790px;
 background: #212226;
 margin-top: 30px;
-  padding-bottom: 20px;
+  
   padding-top: 70px;
   color: #FFFFFF;
 width: 375px;
