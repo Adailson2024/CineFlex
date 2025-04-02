@@ -19,7 +19,7 @@ export default function NavBar(){
 }
 
 const Logo=styled.div`
-width: 100%;
+width: 375px;
 height: 67px;
 margin-left:0px;
 display:flex;

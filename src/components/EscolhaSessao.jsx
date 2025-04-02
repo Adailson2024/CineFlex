@@ -49,7 +49,7 @@ return(
       {sessao && (
         <>
           Selecione o horário
-          <div>
+          <Escolha>
             {sessao.days.map((day) => (
               <Dia data-test="movie-day" key={day.id}>
                 <p>
@@ -69,7 +69,7 @@ return(
                 </Hora>
               </Dia>
             ))}
-          </div>
+          </Escolha>
           
         </>
       )}
@@ -78,9 +78,13 @@ return(
 </div>
 )
 }
-
+const Escolha=styled.div`
+overflow: auto;
+width: 375px;
+height: 680px;
+`
 const Linha=styled.div`
-width: 100%;
+width: 302px;
 top: 213px;
 left: 38px;
 angle: -0 deg;
@@ -132,10 +136,11 @@ top: -950px;
 left: -790px;
 background: #212226;
 margin-top: 30px;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
   padding-top: 70px;
   color: #FFFFFF;
-
+width: 375px;
+height: 580px; 
   div {
     margin-top: 20px;
   }

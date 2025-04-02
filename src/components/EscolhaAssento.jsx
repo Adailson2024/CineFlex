@@ -161,7 +161,7 @@ export default function EscolhaAssento() {
 }
 
 const Linha=styled.div`
-width: 300px;
+width: 302px;
 top: 213px;
 left: 38px;
 angle: -0 deg;
@@ -181,6 +181,8 @@ const PaginaComAssentos = styled.div`
   margin-top: 30px;
   padding-bottom: 120px;
   padding-top: 70px;
+  width: 375px;
+  height: 580px; 
 `;
 
 const EscolherAssentos = styled.div`
@@ -189,14 +191,15 @@ const EscolherAssentos = styled.div`
   flex-wrap: wrap;
   margin-top: 20px;
   color: #2B2D36;
-  margin-left:60px;
+  margin-left:10px;
 `;
 const Formulario = styled.div`
   display: flex;
   flex-direction: column;
+  margin-right: 40px;
   width: 300px;
   margin-bottom: 40px;
-font-size: 16px;
+  font-size: 16px;
   input {
     width: 338px;
     height: 40px;

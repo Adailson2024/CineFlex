@@ -36,8 +36,8 @@ return(
 }
 
 const TelaFilmes=styled.div`
-width: 100%;
-height: 100%; 
+width: 375px;
+height: 580px; 
 top: -950px;
 left: -790px;
 background: #212226;
@@ -64,8 +64,7 @@ flex-wrap:wrap;
 margin-left:10px;
 justify-content:center
 width: 375px;
-height: 780px;
-
+overflow: auto;
 `
 
 const Filme=styled(Link)`

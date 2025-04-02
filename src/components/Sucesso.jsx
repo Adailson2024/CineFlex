@@ -70,11 +70,10 @@ const Comprovante = styled.div`
   font-family: 'Sarala', sans-serif;
   font-size: 24px;
   background:#212226;
-  margin: 30px 20px;
-  padding-bottom: 120px;
-  padding-top: 70px;
-  width:100%;
-  height:100%;
+  overflow: auto;
+  margin-top:67px;
+  width: 375px;
+height: 580px;
   a {
     text-decoration: none;
   }
@@ -130,5 +129,5 @@ letter-spacing: 4%;
 text-align: center;
 vertical-align: middle;
 font-weight: bold;
-
+cursor:pointer;
 `;
